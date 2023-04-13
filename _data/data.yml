@@ -97,31 +97,20 @@ experiences:
         time: 2020.07 - 진행 중
         company: kt ds
         details: |
-          # Describe your role here lorem ipsum dolor sit amet, consectetuer
-          # adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          # Cum sociis natoque penatibus et magnis dis parturient montes,
-          # nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          # pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          # enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          # error sit voluptatem accusantium doloremque laudantium, totam rem
-          # aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          # architecto beatae vitae dicta sunt explicabo.
-          #   - Bullet point
-          #   - Bullet point
           Description
-            Font-End 전환개발 : Adobe Flex로 개발된 Lagacy 시스템을 React 기반으로 전환했습니다.
-            Back-End 전환개발 : Java Servlet을 Spring 기반으로 전환했습니다.
+          &nbsp;&nbsp;Font-End 전환개발 : Adobe Flex로 개발된 Lagacy 시스템을 React 기반으로 전환했습니다.
+          &nbsp;&nbsp;Back-End 전환개발 : Java Servlet을 Spring 기반으로 전환했습니다.
           Detail
-            Netflix zuul을 사용하여 전환개발 시, MSA 구조를 도입하였습니다.
-            Apache, Tocat 무중단 배포로 운영했습니다.
-            C++ AP서버의 기능 개발 및 Unix to Linux 전환을 진행했습니다.
-            crontab에 등록된 C shell로 개발된 서버 스크립트 수정을 진행했습니다.
-            오라클 DB 백업 및 모니터링 업무를 수행했습니다.
-            오라클 DB의 주요 DB쿼리(프로시져)를 작성했습니다.
-            DB 손실 등 이슈 발생 시 복원(데이터 수동 생성) 및 트러블 슈팅작업을 진행했습니다.
-            빌드 도구로는 gradle을 사용했습니다.
-            React UI는 MUI(Material-UI) 라이브러리를 사용했습니다.
-            사내 보안 규정 준수를 위한 Apache에 SSL인증서 설치, 포트 점검 작업을 진행했습니다.
+          &nbsp;&nbsp;Netflix zuul을 사용하여 전환개발 시, MSA 구조를 도입하였습니다.
+          &nbsp;&nbsp;Apache, Tocat 무중단 배포로 운영했습니다.
+          &nbsp;&nbsp;C++ AP서버의 기능 개발 및 Unix to Linux 전환을 진행했습니다.
+          &nbsp;&nbsp;crontab에 등록된 C shell로 개발된 서버 스크립트 수정을 진행했습니다.
+          &nbsp;&nbsp;오라클 DB 백업 및 모니터링 업무를 수행했습니다.
+          &nbsp;&nbsp;오라클 DB의 주요 DB쿼리(프로시져)를 작성했습니다.
+          &nbsp;&nbsp;DB 손실 등 이슈 발생 시 복원(데이터 수동 생성) 및 트러블 슈팅작업을 진행했습니다.
+          &nbsp;&nbsp;빌드 도구로는 gradle을 사용했습니다.
+          &nbsp;&nbsp;React UI는 MUI(Material-UI) 라이브러리를 사용했습니다.
+          &nbsp;&nbsp;사내 보안 규정 준수를 위한 Apache에 SSL인증서 설치, 포트 점검 작업을 진행했습니다.
       - role: Senior Software Engineer
         time: 2014 - 2015
         company: Google, London
