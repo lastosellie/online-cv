@@ -56,12 +56,15 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      저는 무선 통신 시스템을 개발하고 유지보수하는 업무를 수행하고 있습니다. 
+      Adobe Flex로 개발된 레거시 시스템을 React와 Spring으로 전환하였고, 
+      Netflix zuul을 도입하여 MSA 구조를 적용했습니다. 
+      또한 C++ AP서버의 기능 개발과 Unix to Linux 전환, DB 백업 및 모니터링, 
+      오라클 DB쿼리 작성, 그리고 데이터 복원 및 트러블 슈팅작업 등 다양한 업무를 수행했습니다. 
+      또한, WPF, MFC, Angular, PrimeNG 등 다양한 기술을 활용하여 클라이언트 애플리케이션과 
+      웹 어플리케이션을 개발하고 배포하는 업무도 수행해왔습니다. 
+      높은 수준의 기술 역량과 문제 해결 능력, 그리고 적극적인 자세로 업무를 수행하고 있습니다.
+      
 education:
     title: Education
     info:
