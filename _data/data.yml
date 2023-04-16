@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -26,7 +26,7 @@ sidebar:
    # twitter: '@webjeda'
    # stack-overflow: # Number/Username, e.g. 123456/alandoe
    # codewars:
-   # goodreads: # Number-Username, e.g. 123456-alandoe
+   # goodreads: Number-Username, e.g. 123456-alandoe
    # pdf: http://www.africau.edu/images/default/sample.pdf
 
     # languages:
@@ -53,15 +53,10 @@ sidebar:
     #     - item: Cooking
     #       link:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      저는 망 관리 시스템을 개발하고 유지보수하는 업무를 수행하고 있습니다. 
-      Adobe Flex로 개발된 레거시 시스템을 React와 Spring Boot으로 전환하였고, 
-      Netflix zuul을 도입하여 MSA 구조를 적용했습니다. 
-      또한 C++ AP 서버의 기능 개발과 Unix to Linux 전환, DB 백업 및 모니터링, 
-      오라클 DB쿼리 작성, 그리고 데이터 복원 및 트러블 슈팅작업 등 다양한 업무를 수행했습니다.
-      또한, WPF, MFC, Angular, PrimeNG 등 다양한 기술을 활용하여 클라이언트 및 웹 애플리케이션을 개발하고 배포하는 업무도 수행해왔습니다. 
+# career-profile:
+#     title: Profile
+#     summary: |
+#       컴퓨터 공학과를 전공한 후, 네트워크 관련 분야에서 서비스 개발을 진행해 왔습니다. 현재는 KT NMS 및 관련 무선 서비스의 서버, 클라이언트 개발을 진행하고 있습니다.
 
 # education:
 #     title: Education
@@ -89,137 +84,177 @@ career-profile:
 #             - Bullet point
 #             - Bullet point
 experiences:
-    title: 경력
+    title: Experiences
     info:
-      - role: 서버, 클라이언트 개발/대리
-        time: 2020.07 - 진행 중
-        company: kt ds
-        details: |
-          Description|
-          &nbsp;&nbsp;Font-End 전환개발 : Adobe Flex로 개발된 Lagacy 시스템을 React 기반으로 전환했습니다.|
-          &nbsp;&nbsp;Back-End 전환개발 : Java Servlet을 Spring 기반으로 전환했습니다.|
-          Detail|
-          &nbsp;&nbsp;Netflix zuul을 사용하여 전환개발 시, MSA 구조를 도입하였습니다.|
-          &nbsp;&nbsp;Apache, Tocat 무중단 배포로 운영했습니다.|
-          &nbsp;&nbsp;C++ AP서버의 기능 개발 및 Unix to Linux 전환을 진행했습니다.|
-          &nbsp;&nbsp;crontab에 등록된 C shell로 개발된 서버 스크립트 수정을 진행했습니다.|
-          &nbsp;&nbsp;오라클 DB 백업 및 모니터링 업무를 수행했습니다.|
-          &nbsp;&nbsp;오라클 DB의 주요 DB쿼리(프로시져)를 작성했습니다.|
-          &nbsp;&nbsp;DB 손실 등 이슈 발생 시 복원(데이터 수동 생성) 및 트러블 슈팅작업을 진행했습니다.|
-          &nbsp;&nbsp;빌드 도구로는 gradle을 사용했습니다.|
-          &nbsp;&nbsp;React UI는 MUI(Material-UI) 라이브러리를 사용했습니다.|
-          &nbsp;&nbsp;사내 보안 규정 준수를 위한 Apache에 SSL인증서 설치, 포트 점검 작업을 진행했습니다.|
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - role: kt ds, 네트워크IT개발팀
+        time: 2020.07 - 재직 중
+        company: 서버, 클라이언트 개발/대리
+        # details: |
+
+      - role: 노보네트웍스, 소프트웨어개발팀
+        time: 2014.12 - 2018.04
+        company: 클라이언트 개발/사원
+        # details: |
+        #   Describe your role here lorem ipsum dolor sit amet, consectetuer
+        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        #   Cum sociis natoque penatibus et magnis dis parturient montes,
+        #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        #   pellentesque eu, pretium quis, sem.
+        #     - Bullet point
+        #     - Bullet point
+      - role: LG실트론, QC팀
+        time: 2009.10 - 2010.05
+        company: QC/사원
+
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - role: 무선VOC응대시스템 개발/유지보수
+        time: 2020.07 - 2023.03
+        company: kt ds, 대리
+        details: |
+          - Description
+              - Font-End 전환개발 : Adobe Flex로 개발된 Lagacy 시스템을 React 기반으로 전환했습니다.
+              - Back-End 전환개발 : Java Servlet을 Spring 기반으로 전환했습니다.
+          - Detail
+              - Netflix zuul을 사용하여 전환개발 시, MSA 구조를 도입하였습니다.
+              - Apache, Tocat 무중단 배포로 운영했습니다.
+              - C++ AP서버의 기능 개발 및 Unix to Linux 전환을 진행했습니다.
+              - crontab에 등록된 C shell로 개발된 서버 스크립트 수정을 진행했습니다.
+              - 오라클 DB 백업 및 모니터링 업무를 수행했습니다.
+              - 오라클 DB의 주요 DB쿼리(프로시져)를 작성했습니다.
+              - DB 손실 등 이슈 발생 시 복원(데이터 수동 생성) 및 트러블 슈팅작업을 진행했습니다.
+              - 빌드 도구로는 gradle을 사용했습니다.
+              - React UI는 MUI(Material-UI) 라이브러리를 사용했습니다.
+              사내 보안 규정 준수를 위한 Apache에 SSL인증서 설치, 포트 점검 작업을 진행했습니다.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - role: 5G NMS 무선관제 개발/유지보수
+        time: 2022.05 - 진행 중
+        company: kt ds, 대리
+        details: |
+          - Description
+              - 서버 프로그램 개발 및 유지보수 업무를 진행했습니다.
+          - Detail
+              - 오라클, Tibero DB에서 주요 쿼리 작성, DB 링크, DBMS JOB 관리를 진행했습니다.
+              - CentOS 7.4에서 C++, Python, VisiBroker, Makefile로 개발된 프로그램을 수정해서 배포하는 작업을 주로 진행했습니다.
+              - 성능 관련 서버 프로그램 이동 및 프로그램 분산 배치 등을 진행했습니다.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - role: 재난WiFi 통합식별자 송출사업 수행
+        time: 2022.04 - 2022.10
+        company: kt ds, 대리
+        details: |
+          - 일정 및 산출물 관리, 우호적인 협업 관계 구축 및 사업 진행 전 기술 검토를 진행했습니다.
+      
+      - role: 5건의 EMS 클라이언트 개발/배포 수행
+        time: 2014.12 - 2018.04
+        company: 노보네트웍스, 사원
+        details: |
+          - WPF, MFC를 사용하여 네트워크 장비 운용을 위한 Window Client Application 개발을 진행했습니다.
+          - MVVM Light를 사용하여 MVVM 패턴을 적용했습니다.
+          - InstallShield를 활용한 배포를 진행했습니다.
+          - UI 제작을 위한 DevExpress 상용툴을 사용했습니다.
+      
+      - role: 전자가격표시기 통합관리시스템용 클라이언트 개발
+        time: 2018.01 - 2018.04
+        company: 노보네트웍스, 사원
+        details: |
+          - Angular를 사용하여 Web client Application 프로토타입 제작을 진행했습니다.
+          - PrimeNG 오픈소스 UI 컴포넌트를 사용해서 UI를 제작했습니다.
+          - InstallShield를 활용한 배포를 진행했습니다.
+      
+      - role: 채팅기반의 교육프로그램 개발 및 배포
+        time: 2017.4 - 2018.07
+        company: 노보네트웍스, 사원
+        details: |
+          - WPF를 사용하여 채팅 기반의 교육 프로그램을 개발했습니다.
+          - DevExpress 상용툴을 제거하기 위해서 Material Design In XAML Toolkit, MahApps.Metro의 오픈소스를 사용해서 UI를 제작 했습니다.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
+certificates:
+    title: Certificate / License
 
     toolset:
-      - name: Python & Django
-        #level: 98%
+      - name: 자격증
+        details: |
+          - AWS Certified Cloud Practitioner
+          - ADsP
+          - SQLD
+          - 정보처리기사
+          - 정보통신산업기사
+          - 무선설비산업기사
 
-      - name: Javascript & jQuery
-        #level: 98%
+      - name: 공인외국어시험
+        details: |
+          - OPIc Intermediate Mid 2
+          - TOEIC 785
 
-      - name: Angular
-        #level: 98%
+skills:
+    title: Skills
 
-      - name: HTML5 & CSS
-        #level: 95%
+    toolset:
+      - name: Programming Language / IDE
+        details: |
+          - Java, Javascript, Python, C#, C++, C, HTML5, CSS
+          - Visual Studio, Visual Studio Code, IntelliJ, Eclipse
 
-      - name: Ruby on Rails
-        #level: 85%
+      - name: Framework / Library (Toolkit)
+        details: |
+          - Spring, React, Angular, jQuery, WPF, MFC, Swing, Adobe Flex
 
-      - name: Sketch & Photoshop
-        #level: 60%
+      - name: DB / Server
+        details: |
+          - Oracle DB, Tibero DB, SQLite, Lite DB, Apache, Tomcat
+
+      - name: Tooling / DevOps
+        details: |
+          - Git, SVN, Gradle, maven, GNU make, bash, csh
+          - Redmine, Notion, MS Office, Google Docs, Slack
+
+      - name: Environment / Etc
+        details: |
+          - AWS, Linux(CentOS 7.4), macOS, UNIX, Windows
+          - Photoshop, Premiere
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

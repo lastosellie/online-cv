@@ -17,12 +17,11 @@
 
       <h3 class="level-title">{{ skill.name }}</h3>
 
-      {% if skill.details %}
-      <div class="details">
-        {{ skill.details | markdownify }}
-      </div><!--//details-->
-      {% endif %}
-      
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div><!--//level-bar-->
+
     </div><!--//item-->
     {% endfor %}
 

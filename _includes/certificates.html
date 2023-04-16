@@ -1,5 +1,5 @@
-{% assign skills = site.data.data.skills %}
-{% if skills %}
+{% assign certificates = site.data.data.certificates %}
+{% if certificates %}
 <section class="skills-section section">
 
   <h2 class="section-title">
@@ -7,19 +7,19 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
     </span>
-    {{ skills.title }}
+    {{ certificates.title }}
   </h2>
 
   <div class="skillset">
 
-    {% for skill in skills.toolset %}
+    {% for certificate in certificates.toolset %}
     <div class="item">
 
-      <h3 class="level-title">{{ skill.name }}</h3>
+      <h3 class="level-title">{{ certificate.name }}</h3>
 
-      {% if skill.details %}
+      {% if certificate.details %}
       <div class="details">
-        {{ skill.details | markdownify }}
+        {{ certificate.details | markdownify }}
       </div><!--//details-->
       {% endif %}
       
